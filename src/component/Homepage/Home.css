@@ -1,0 +1,24 @@
+.Information {
+    font-size: 8vh;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.Information2 {
+    font-size: 7vh;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.ButtonPlay {
+    margin-top: 5rem;
+    size: 20vh;
+    text-align: center;
+}
+
+.fitur {
+    margin-right: 7vh;
+    margin-top: 5rem;
+}

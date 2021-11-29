@@ -1,0 +1,51 @@
+.App {
+  /* Taking the full height of the body. No scroll */
+  position: relative;
+  min-height: 100vh;
+}
+.content-wrap {
+  /* Leave space for the footer. Important */
+  padding-bottom: 4rem;
+}
+
+
+
+.App-header {
+  background-color: rgb(136, 136, 138)2;
+  min-height: 91vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+
+.footer {
+  /* Fixing the footer at the bottom  */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 4rem;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
