@@ -1,4 +1,3 @@
-import logo from '../../chat.svg'
 import './Home.css';
 import { Button } from 'react-bootstrap';
 import { BiGame } from "react-icons/bi";
