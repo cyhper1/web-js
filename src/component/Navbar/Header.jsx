@@ -14,7 +14,7 @@ function Header() {
   <Navbar.Collapse id="responsive-navbar-nav">
   <Nav className="me-auto">
       </Nav>
-      <Nav.Link href="#home">Home</Nav.Link>
+      <Nav.Link href="/">Home</Nav.Link>
       <Nav.Link href="https://github.com/Tudo12" disabled>Forum</Nav.Link>
   </Navbar.Collapse>
   </Container>
