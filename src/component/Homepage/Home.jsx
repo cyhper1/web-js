@@ -1,14 +1,14 @@
 import './Home.css';
 import { Button } from 'react-bootstrap';
-import { BiGame } from "react-icons/bi";
+import { SiRobotframework } from "react-icons/si";
 
 function Home() {
   return (
     <div >
-      <h1 className='Information'>Selamat Datang di</h1>
-      <h2 className='Information2'>Indonity Roleplay</h2>
+      <h1 className='Information'>Welcome To This bot</h1>
+      <h2 className='Information2'>Chyper Primary</h2>
       <header className='ButtonPlay'>
-      <Button href="https://discord.gg/QcCSBnu5es" size="lg"> <BiGame /> Play Now!</Button>
+      <Button href="https://discord.gg/QcCSBnu5es" size="lg"> <SiRobotframework /> Invite Now!</Button>
       </header>
     </div>
   )
